@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "arialBlack";
+  src: url("/fonts/arialBlack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "montserratBold";
+  src: url("/fonts/montserratBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "montserratSemiBold";
+  src: url("/fonts/montserratSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: monumentExtendedUltrabold;
+  src: url("/fonts/monumentExtendedUltrabold.otf") format("opentype");
+}
+
+.montserratBold {
+  font-family: "montserratBold";
+}
+
+.montserratSemiBold {
+  font-family: "montserratSemiBold";
+}
+
+.monumentExtendedUltrabold {
+  font-family: "monumentExtendedUltrabold";
+}
+
+.arialBlack {
+  font-family: "arialBlack";
+}
