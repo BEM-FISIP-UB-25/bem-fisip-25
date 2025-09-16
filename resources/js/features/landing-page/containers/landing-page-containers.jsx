@@ -1,3 +1,4 @@
+import bg from "../../../../assets/landingpage/hero/bg.webp"
 
 const LandinPageContainer = () => {
     return (
