@@ -8,7 +8,9 @@ use Inertia\Inertia;
 Route::get('/',function(){
     return Inertia::render('home/Landingpage');
 });
-
+Route::get('/profil', function(){
+    return Inertia::render('home/Profile');
+});
 Route::get('/lembaga', function(){
     return Inertia::render('Lembaga');
 });
