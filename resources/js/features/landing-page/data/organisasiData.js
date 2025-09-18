@@ -6,9 +6,6 @@
     import integritas from "../../../../assets/landingpage/organisasi/integritas.webp"
    
    /**
- * Sebuah array yang berisi objek-objek Organisasi.
- * Editor kode Anda sekarang tahu bahwa setiap objek di sini harus cocok dengan
- * struktur Organisasi yang didefinisikan di types.js.
  * @type {Organisasi[]}
  */
 

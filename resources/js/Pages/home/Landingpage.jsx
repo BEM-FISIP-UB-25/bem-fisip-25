@@ -2,10 +2,11 @@ import LandingPage from "@/features/landing-page/containers/landing-page-contain
 import BaseLayout from "@/shared/Layouts/HomeLayout"
 const Landingpage = () => {
     return(
+        <BaseLayout title="Landingpage">
         <LandingPage />
+        </BaseLayout>
     )
 }
 
 export default Landingpage;
 
-Landingpage.layout = (page) => <BaseLayout title="Landing Page">{page}</BaseLayout>;
