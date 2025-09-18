@@ -8,9 +8,15 @@ use Inertia\Inertia;
 Route::get('/',function(){
     return Inertia::render('home/Landingpage');
 });
+
+Route::get('/lembaga', function(){
+    return Inertia::render('Lembaga');
+});
+
 Route::get('/hello',function(){
     return Inertia::render('Hello');
 });
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
