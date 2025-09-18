@@ -20,7 +20,6 @@ const misiItems = [
 ];
 
 const Visimisi = () => {
-  // Menghapus tipe TypeScript dari hooks
   const sectionRef = useRef(null);
   const visiTitleRef = useRef(null);
   const misiTitleRef = useRef(null);
@@ -44,7 +43,6 @@ const Visimisi = () => {
     offset: ["start end", "end start"],
   });
 
-  // Menghapus tipe MotionValue<number>
   const progressValue = useTransform(
     scrollYProgress,
     [0, 1],
@@ -59,18 +57,19 @@ const Visimisi = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full mx-auto py-[2vw] bg-[#FF9A27] rounded-3xl"
+      className="relative w-full mx-auto py-[2vw] bg-[#FF9A27] rounded-3xl shadow-[0px_-5px_13px_10px_rgba(0,0,0,0.25)]"
     >
       <div className="flex flex-row justify-between gap-x-5 sm:gap-x-[5vw]">
         
         <div className="w-[20%]">
           <div className="w-[20vw] h-[20vw] sm:w-32 sm:h-32 lg:w-40 lg:h-40 sticky top-[40vh] z-20">
             <div className="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center p-[2vw]">
-              {/* Mengganti <Image> dengan <img> */}
               <img
                 src={star}
                 alt="Logo Bintang"
                 className="w-full h-auto"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <CircularProgressbar
