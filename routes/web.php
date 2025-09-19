@@ -9,9 +9,10 @@ use Inertia\Inertia;
 Route::get('/',function(){
     return Inertia::render('home/Landingpage');
 });
-Route::get('/profile',function(){
+Route::get('/profil', function(){
     return Inertia::render('home/Profile');
 });
+
 Route::prefix('struktur')->name('struktur.')->group(function () {
     Route::get('/', [StrukturController::class, 'index'])->name('index');
     Route::get('/spi', [StrukturController::class, 'Spi'])->name('spi');
@@ -20,10 +21,21 @@ Route::prefix('struktur')->name('struktur.')->group(function () {
     Route::get('/pergerakan', [StrukturController::class, 'Pergerakan'])->name('pergerakan');
 });
 
+Route::get('/lembaga', function(){
+    return Inertia::render('Lembaga');
+});
 
-// Route::get('/dashboard', function () {
-//     return Inertia::render('Dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/hello',function(){
+    return Inertia::render('Hello');
+});
+
+Route::get('/layanan', function(){
+    return Inertia::render('Layanan');
+});
+
+Route::get('/dashboard', function () {
+    return Inertia::render('Dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 // Route::middleware('auth')->group(function () {
 //     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
