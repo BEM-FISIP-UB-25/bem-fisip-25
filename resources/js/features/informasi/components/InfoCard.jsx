@@ -32,7 +32,7 @@ export default function InfoCard({ card, onClick }) {
             <img
               src={card.image}
               alt={card.alt || card.title}
-              className="w-full h-[220px] sm:h-[240px] md:h-[260px] object-contain p-2"
+              className="w-full h-[220px] sm:h-[240px] md:h-[260px] object-contain p-2  rounded-md"
               loading="lazy"
               width="400" height="500"
             />

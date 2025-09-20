@@ -10,7 +10,7 @@ const Company = () => {
     return (
         <div className="flex flex-col items-center justify-center w-full relative pt-10 pb-20 md:pt-20 md:pb-40 overflow-hidden">
             <img
-                src={bg}
+                src='/images/THUMBNAIL.png'
                 alt="Latar belakang"
                 className="absolute top-0 left-0 w-full h-full object-cover -z-10"
                 loading="eager"

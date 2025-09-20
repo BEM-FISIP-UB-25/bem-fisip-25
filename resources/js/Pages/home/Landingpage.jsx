@@ -1,9 +1,14 @@
 import LandingPage from "@/features/landing-page/containers/landing-page-containers"
 import BaseLayout from "@/shared/Layouts/HomeLayout"
-const Landingpage = () => {
+
+const Landingpage = ({ meta }) => {
     return(
-        <BaseLayout title="Landingpage">
-        <LandingPage />
+        <BaseLayout 
+            title={meta?.title || "BEM FISIP UB 2025"}
+            description={meta?.description}
+            keywords={meta?.keywords}
+        >
+            <LandingPage />
         </BaseLayout>
     )
 }
