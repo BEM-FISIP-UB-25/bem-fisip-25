@@ -16,7 +16,7 @@ export default function StepCard({ no, text, children }) {
 
       <div className="absolute -top-5 md:-top-8 -left-3 md:-left-4">
         <div className="bg-[#232c77] rounded-xl shadow-md p-0.5 md:p-1">
-          <div className="bg-[#ff8a00] text-white rounded-lg px-6 py-2 md:px-10 md:py-3 lg:px-16 lg:py-4 text-base md:text-2xl lg:text-3xl monumentExtendedUltrabold">
+          <div className="bg-[#ff8a00] text-white rounded-lg px-6 py-2 md:px-10 md:py-3 lg:px-16 lg:py-4 text-xl md:text-3xl lg:text-4xl crimsonBold">
             {no}
           </div>
         </div>
