@@ -1,28 +1,26 @@
 import bg from "../../../../assets/profile/hero/bg.webp";
 import foto from "../../../../assets/profile/hero/foto.webp";
-import EntryAnimation from "@/shared/components/EntryAnimation"; // 1. Impor komponen animasi
+import EntryAnimation from "@/shared/components/EntryAnimation"; 
 
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center justify-center w-full relative mt-[-2vw]">
+        <div className="flex flex-col items-center justify-center w-full relative -z-10 mt-[-5vw]">
             <img 
                 src={bg} 
                 alt="Latar belakang hero" 
                 className="w-full" 
-                loading="eager" // Saran: Gunakan 'eager' untuk gambar utama
+                loading="eager" 
                 fetchpriority="high" 
                 decoding="async"
             />
             <div className="absolute top-0 left-0 w-full h-full flex items-center justify-between p-[6vw]">
                 
-                {/* Animasi untuk Foto */}
                 <EntryAnimation type="slide" direction="left" duration={1}>
                     <div className="relative w-[45vw]">
                         <img src={foto} alt="Foto kabinet" loading="eager" decoding="async" />
                     </div>
                 </EntryAnimation>
 
-                {/* Animasi untuk Teks */}
                 <EntryAnimation type="slide" direction="right" duration={1} delay={0.2}>
                     <div className="flex flex-col items-start w-[40vw] gap-y-[2vw]">
                         <h1 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(3vw,3.2vw,4vw)] text-justify">

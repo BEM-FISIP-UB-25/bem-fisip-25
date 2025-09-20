@@ -12,7 +12,7 @@ import aiman from "../../../../assets/struktur/pergerakan/sosling/aiman.png";
 import aqila from "../../../../assets/struktur/pergerakan/sosling/aqila.png";
 import atana from "../../../../assets/struktur/pergerakan/sosling/atana.png";
 import azriel from "../../../../assets/struktur/pergerakan/sosling/azriel.png";
-import namePlaceholder from "../../../../assets/struktur/pergerakan/sosling/nama.png"; // Placeholder
+import namePlaceholder from "../../../../assets/struktur/pergerakan/sosling/nama.png"; 
 import farel from "../../../../assets/struktur/pergerakan/sosling/farel.png";
 import ghania from "../../../../assets/struktur/pergerakan/sosling/ghania.png";
 import khansa from "../../../../assets/struktur/pergerakan/sosling/khansa.png";

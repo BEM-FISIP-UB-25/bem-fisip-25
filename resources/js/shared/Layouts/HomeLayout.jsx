@@ -1,5 +1,5 @@
 import { Head } from '@inertiajs/react';
-import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
@@ -12,9 +12,13 @@ export default function SiteLayout({ title, children }) {
   return (
     <>
       <Head title={title} />
-      <Navbar />
-      {children}
-      <Footer />
+      <div className='relative'>
+        <Navbar />
+        <div className='mt-[-2vw]'>
+          {children}
+        </div>
+        <Footer />
+      </div>
     </>
   );
 }

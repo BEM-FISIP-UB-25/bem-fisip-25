@@ -43,6 +43,37 @@
   src: url("/fonts/poppinsBlack.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "arialBold";
+  src: url("/fonts/arialBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: url("/fonts/poppinsRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppinsSemibold";
+  src: url("/fonts/poppinsSemibold.ttf") format("truetype");
+}
+
+.poppinsSemibold {
+  font-family: "poppinsSemibold";
+}
+
+.poppinsRegular {
+  font-family: "poppinsRegular";
+}
+
+.arialBold {
+  font-family: "arialBold";
+}
+
+.poppinsBlack {
+  font-family: "poppinsBlack";
+}
+
 .montserratBold {
   font-family: "montserratBold";
 }

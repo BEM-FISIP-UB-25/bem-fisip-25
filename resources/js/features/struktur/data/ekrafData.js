@@ -33,5 +33,5 @@ export const ekrafData = [
     { id: 12, name: "KARIMAH S.", division: "STAFF AHLI", image: karimah },
     { id: 13, name: "SHABRINA ISYRAQ", division: "STAFF AHLI", image: shabrina },
     { id: 14, name: "PUTRA SATRIA", division: "STAFF AHLI", image: putra },
-    { id: 15, name: "...", division: "STAFF AHLI", image: namePlaceholder }, // Anggota terakhir sesuai permintaan
+    { id: 15, name: "...", division: "STAFF AHLI", image: namePlaceholder }, 
 ];

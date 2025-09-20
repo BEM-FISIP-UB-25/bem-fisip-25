@@ -21,14 +21,14 @@ import nabilah from "../../../../assets/struktur/pengembangan/senora/nabilah.png
 import jasika from "../../../../assets/struktur/pengembangan/senora/jasika.png";
 import abiyyu from "../../../../assets/struktur/pengembangan/senora/abiyyu.png";
 import ayyash from "../../../../assets/struktur/pengembangan/senora/ayyash.png";
-import debby from "../../../../assets/struktur/pengembangan/senora/debby.png"; // Asumsi file ini ada
-import namePlaceholder from "../../../../assets/struktur/pengembangan/senora/name.png"; // Placeholder
+import debby from "../../../../assets/struktur/pengembangan/senora/debby.png"; 
+import namePlaceholder from "../../../../assets/struktur/pengembangan/senora/name.png"; 
 
 
 export const senoraData = [
     { id: 1, name: "RAISYA BINTANG I.", division: "MENTERI SENORA", image: raisya },
     { id: 2, name: "MARCHSELLA V.", division: "DIRJEN SENI", image: marchsella },
-    { id: 3, name: "BENEDICTUS PANDYA P.", division: "DIRJEN OLAHRAGA", image: benedictus }, // Disesuaikan dari gambar
+    { id: 3, name: "BENEDICTUS PANDYA P.", division: "DIRJEN OLAHRAGA", image: benedictus }, 
     { id: 4, name: "CLAUDIA INTAN", division: "STAFF AHLI", image: claudia },
     { id: 5, name: "AXEL MANUEL", division: "STAFF AHLI", image: axel },
     { id: 6, name: "M. HALI", division: "STAFF AHLI", image: hali },
@@ -46,5 +46,5 @@ export const senoraData = [
     { id: 18, name: "M. ABIYYU", division: "STAFF AHLI", image: abiyyu },
     { id: 19, name: "AYYASH MUSYARI", division: "STAFF AHLI", image: ayyash },
     { id: 20, name: "DEBBY INTAN", division: "STAFF AHLI", image: debby },
-    { id: 21, name: "...", division: "STAFF AHLI", image: namePlaceholder }, // Sesuai permintaan
+    { id: 21, name: "...", division: "STAFF AHLI", image: namePlaceholder }, 
 ];

@@ -9,7 +9,7 @@ import raka from "../../../../assets/struktur/pelayanan/lugri/raka.png";
 import ritz from "../../../../assets/struktur/pelayanan/lugri/ritz.png";
 import rayhan from "../../../../assets/struktur/pelayanan/lugri/rayhan.png";
 import ghaida from "../../../../assets/struktur/pelayanan/lugri/ghaida.png";
-import namePlaceholder from "../../../../assets/struktur/pelayanan/lugri/nama.png"; // Placeholder
+import namePlaceholder from "../../../../assets/struktur/pelayanan/lugri/nama.png"; 
 import dimas from "../../../../assets/struktur/pelayanan/lugri/dimas.png";
 import rizki from "../../../../assets/struktur/pelayanan/lugri/rizki.png";
 import sabrina from "../../../../assets/struktur/pelayanan/lugri/sabrina.png";

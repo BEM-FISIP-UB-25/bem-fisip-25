@@ -3,8 +3,7 @@ import EntryAnimation from '@/shared/components/EntryAnimation'; // 1. Impor kom
 
 const Hero = () => {
     return (
-        <EntryAnimation type="fade" duration={2}>
-            <div className="flex flex-col items-center justify-center w-full relative z-0 mt-[-2vw]">
+        <EntryAnimation type="fade" duration={2} className="flex flex-col items-center justify-center w-full relative z-0 mt-[-2vw]">
                 <img 
                     src={bg} 
                     alt="bg" 
@@ -14,7 +13,7 @@ const Hero = () => {
                     decoding="async" 
                 />
                 <div className="w-full h-[10vw] absolute top-0 bg-gradient-to-b from-[#FF9A27] from-0% via-[#FF9A27] via-42% to-[#ECECEC]/0 to-91% z-0" />
-            </div>
+            
         </EntryAnimation>
     );
 };

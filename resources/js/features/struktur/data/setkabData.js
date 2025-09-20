@@ -2,7 +2,6 @@
 
 /** @type {setkab[]} */
 
-//setkab
 import fiori from "../../../../assets/struktur/spi/setkab/fiori.png";
 import jennar from "../../../../assets/struktur/spi/setkab/jennar.png";
 import meutia from "../../../../assets/struktur/spi/setkab/meutia.png";

@@ -9,7 +9,7 @@ import dea from "../../../../assets/struktur/spi/aparatur/dea.png";
 import naila from "../../../../assets/struktur/spi/aparatur/naila.png";
 import rizka from "../../../../assets/struktur/spi/aparatur/rizka.png";
 import kathryn from "../../../../assets/struktur/spi/aparatur/kathryn.png";
-import ghaidaMahsa from "../../../../assets/struktur/spi/aparatur/ghida.png"; // Nama file 'ghida.png' untuk Ghaida Mahsa
+import ghaidaMahsa from "../../../../assets/struktur/spi/aparatur/ghida.png"; 
 import dina from "../../../../assets/struktur/spi/aparatur/dina.png";
 import naura from "../../../../assets/struktur/spi/aparatur/naura.png";
 import naisma from "../../../../assets/struktur/spi/aparatur/naisma.png";

@@ -1,14 +1,14 @@
 import bg from "../../../../assets/landingpage/organisasi/bg.webp";
 import bgCard from "../../../../assets/landingpage/organisasi/bg-card.webp";
 import { organisasiData } from "../data/organisasiData";
-import EntryAnimation from "@/shared/components/EntryAnimation"; // Impor komponen animasi
+import EntryAnimation from "@/shared/components/EntryAnimation"; 
 
 const Organisasi = () => {
     const dataBaris1 = organisasiData.slice(0, 3);
     const dataBaris2 = organisasiData.slice(3, 5);
 
     return (
-        <div className="relative flex flex-col items-center w-full py-[5vw] overflow-hidden"> {/* Tambahkan overflow-hidden */}
+        <div className="relative flex flex-col items-center w-full py-[5vw] overflow-hidden"> 
             <img 
                 src={bg} 
                 alt="Latar belakang nilai organisasi" 

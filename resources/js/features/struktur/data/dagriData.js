@@ -27,7 +27,7 @@ export const dagriData = [
     { id: 7, name: "AHMAD FAVIAN", division: "STAFF AHLI", image: ahmad },
     { id: 8, name: "FAKHRI IKHSAN", division: "STAFF AHLI", image: fakhri },
     { id: 9, name: "ZUHAL DIAUL HAQ", division: "STAFF AHLI", image: zuhal },
-    { id: 10, name: "...", division: "STAFF AHLI", image: namePlaceholder }, // Sesuai permintaan
+    { id: 10, name: "...", division: "STAFF AHLI", image: namePlaceholder }, 
     { id: 11, name: "SALSABILA SALSA YUDO", division: "STAFF AHLI", image: salsabila },
     { id: 12, name: "ZAHRA AMELIA", division: "STAFF AHLI", image: zahra },
     { id: 13, name: "MEYLIZA ENDAH", division: "STAFF AHLI", image: meyliza },

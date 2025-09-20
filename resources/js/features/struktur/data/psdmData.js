@@ -16,7 +16,7 @@ import mutiara from "../../../../assets/struktur/pengembangan/psdm/mutiara.png";
 import nadya from "../../../../assets/struktur/pengembangan/psdm/nadya.png";
 import syaula from "../../../../assets/struktur/pengembangan/psdm/syaula.png";
 import zahra from "../../../../assets/struktur/pengembangan/psdm/zahra.png";
-import rafsyaa from "../../../../assets/struktur/pengembangan/psdm/rafsyaa.png"; // Placeholder
+import rafsyaa from "../../../../assets/struktur/pengembangan/psdm/rafsyaa.png"; 
 import indira from "../../../../assets/struktur/pengembangan/psdm/indira.png";
 
 export const psdmData = [

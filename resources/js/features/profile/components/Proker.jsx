@@ -39,12 +39,10 @@ const Proker = () => {
             </h1>
 
             <div className="flex flex-row items-center justify-between w-full">
-                {/* Tombol Kiri */}
                 <button onClick={handlePrev} className="transition-transform duration-200 hover:scale-110">
                     <img src={arrow} alt="Previous" className="w-[8vw]" loading="lazy" decoding="async" />
                 </button>
 
-                {/* Konten Slider */}
                 <div className="w-[70vw] "> 
                     <AnimatePresence initial={false} custom={direction} mode="wait">
                         <motion.div
@@ -69,7 +67,6 @@ const Proker = () => {
                     </AnimatePresence>
                 </div>
 
-                {/* Tombol Kanan */}
                 <button onClick={handleNext} className="transition-transform duration-200 hover:scale-110">
                     <img src={arrow} alt="Next" className="w-[8vw] scale-x-[-1]" loading="lazy" decoding="async" />
                 </button>

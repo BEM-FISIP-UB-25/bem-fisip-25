@@ -8,31 +8,26 @@ import benkab from "../../../../assets/struktur/spi/benkab.png";
 import pao from "../../../../assets/struktur/spi/pao.png";
 import puskom from "../../../../assets/struktur/spi/puskom.png";
 
-// Impor data
 import { setkabData } from "../data/setkabData";
 import { benkabData } from "../data/benkabData";
 import { aparaturData } from "../data/aparaturData";
 import { puskomData } from "../data/puskomData";
 
-// Impor komponen
 import StaffCard from './StaffCard';
 import EntryAnimation from '@/shared/components/EntryAnimation'; 
 
 const SpiDetails = () => {
-    // Membagi data Setkab
     const rowSetkab1 = setkabData.slice(0, 2);
     const rowSetkab2 = setkabData.slice(2, 5);
     const rowSetkab3 = setkabData.slice(5, 8);
     const rowSetkab4 = setkabData.slice(8, 11);
     const rowSetkab5 = setkabData.slice(11, 13);
 
-    // Membagi data Benkab
     const rowBenkab1 = benkabData.slice(0, 2);
     const rowBenkab2 = benkabData.slice(2, 5);
     const rowBenkab3 = benkabData.slice(5, 8);
     const rowBenkab4 = benkabData.slice(8, 9);
 
-    // Membagi data Aparatur
     const rowAparatur1 = aparaturData.slice(0, 2);
     const rowAparatur2 = aparaturData.slice(2, 5);
     const rowAparatur3 = aparaturData.slice(5, 8);
@@ -40,7 +35,6 @@ const SpiDetails = () => {
     const rowAparatur5 = aparaturData.slice(11, 14);
     const rowAparatur6 = aparaturData.slice(14, 16);
 
-    // Membagi data Puskom
     const rowPuskom1 = puskomData.slice(0, 1);
     const rowPuskom2 = puskomData.slice(1, 4);
     const rowPuskom3 = puskomData.slice(4, 7);
@@ -51,7 +45,7 @@ const SpiDetails = () => {
     const rowPuskom8 = puskomData.slice(19, 20);
 
     return (
-<div className=" w-full flex flex-col items-center relative bg-gradient-to-b from-[#23235F] from-42% to-[#4949C5] to-[71%] overflow-hidden z-0">
+<div className=" w-full flex flex-col items-center relative bg-gradient-to-b from-[#23235F] from-42% to-[#4949C5] to-[71%] overflow-hidden z-0 pt-[3vw]">
             <div className=" z-10 flex flex-col absolute w-full">
                 <img src={background} alt="background" className="w-full z-10" loading="lazy" decoding="async" />
                 <img src={bg} alt="background" className="w-full z-10 opacity-20" loading="lazy" decoding="async" />
@@ -70,7 +64,7 @@ const SpiDetails = () => {
                 
                 <EntryAnimation type="fade" duration={1}>
                     <div className="flex flex-col items-center justify-center gap-y-[2.5vw] md:gap-y-[1vw]  w-[90vw] md:w-[65vw]">
-                        <img src={spi} alt="spi logo" className="w-[10vw]" />
+                        <img src={spi} alt="spi logo" className="w-[8vw]" />
                         <h1 className="monumentExtendedRegular text-[clamp(2vw,4vw,4vw)] md:text-[clamp(2vw,3vw,3vw)] text-center leading-tight text-white">
                             SATUAN PENGENDALI INTERNAL DAN INFORMASI
                         </h1>
@@ -96,7 +90,7 @@ const SpiDetails = () => {
                     <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
                         <div className="w-full flex flex-col items-center px-[2vw] mt-20">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
-                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,2rem)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
+                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>
                             <div className="w-full max-w-7xl flex flex-col text-[#23235F] montserratBold gap-y-[3vw] justify-end p-6 md:p-[2.5vw] bg-white pt-16 md:pt-[5vw] mt-[-3.5vw] sm:mt-[-3vw] rounded-b-2xl z-0">
                                 <div className="flex flex-col gap-y-[1.5vw]">
@@ -132,7 +126,7 @@ const SpiDetails = () => {
                     <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
                         <div className="w-full flex flex-col items-center px-[2vw] mt-20">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
-                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,2rem)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
+                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>
                             <div className="w-full max-w-7xl flex flex-col text-[#23235F] montserratBold gap-y-[3vw] justify-end p-6 md:p-[2.5vw] bg-white pt-16 md:pt-[5vw] mt-[-3.5vw] sm:mt-[-3vw] rounded-b-2xl z-0">
                                 <div className="flex flex-col gap-y-[1.5vw]">
@@ -170,7 +164,7 @@ const SpiDetails = () => {
                      <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
                         <div className="w-full flex flex-col items-center px-[2vw] mt-20">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
-                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,2rem)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
+                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>
                             <div className="w-full max-w-7xl flex flex-col text-[#23235F] montserratBold gap-y-[3vw] justify-end p-6 md:p-[2.5vw] bg-white pt-16 md:pt-[5vw] mt-[-3.5vw] sm:mt-[-3vw] rounded-b-2xl z-0">
                                 <div className="flex flex-col gap-y-[1.5vw]">
@@ -210,7 +204,7 @@ const SpiDetails = () => {
                     <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
                         <div className="w-full flex flex-col items-center px-[2vw] mt-20 pb-20">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
-                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,2rem)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
+                                <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>
                             <div className="w-full max-w-7xl flex flex-col text-[#23235F] montserratBold gap-y-[3vw] justify-end p-6 md:p-[2.5vw] bg-white pt-16 md:pt-[5vw] mt-[-3.5vw] sm:mt-[-3vw] rounded-b-2xl z-0">
                                 <div className="flex flex-col gap-y-[1.5vw]">

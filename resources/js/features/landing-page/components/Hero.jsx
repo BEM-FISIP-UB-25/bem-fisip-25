@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <div className="flex flex-col relative p-[2vw] items-center justify-center overflow-hidden">
+        <div className="flex flex-col relative p-[2vw] items-center justify-center overflow-hidden mt-[2vw]">
             <img 
                 src={bg} 
                 alt="Latar belakang utama hero" 
@@ -20,7 +20,6 @@ const Hero = () => {
             />
             <div className="flex flex-row justify-between gap-x-[5vw] absolute top-0 left-0 p-[8vw]">
                 
-                {/* Bagian Kiri */}
                 <div className="flex flex-col gap-y-[3vw] relative">
                     <EntryAnimation type="fade" duration={1.5} delay={0.2}>
                         <h2 className="text-white montserratBold text-[clamp(2.5vw,2.5vw,4vw)]">KABINET BEM FISIP UB 2025</h2>
@@ -84,7 +83,6 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* Bagian Kanan */}
                 <div className="relative">
                     <EntryAnimation type="fade" duration={1.5} delay={0.5}>
                         <img 

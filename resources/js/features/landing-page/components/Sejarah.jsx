@@ -3,7 +3,7 @@ import bgLogo from "../../../../assets/landingpage/sejarah/bg-logo.webp";
 import logo from "../../../../assets/landingpage/sejarah/logo.webp";
 import bgBlue from "../../../../assets/landingpage/sejarah/bg-blue.webp";
 import bgOrange from "../../../../assets/landingpage/sejarah/bg-orange.webp";
-import EntryAnimation from "@/shared/components/EntryAnimation"; // Impor komponen animasi
+import EntryAnimation from "@/shared/components/EntryAnimation"; 
 
 const Sejarah = () => {
     return (

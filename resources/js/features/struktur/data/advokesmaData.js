@@ -18,7 +18,7 @@ import brian from "../../../../assets/struktur/pelayanan/advokesma/brian.png";
 import queentara from "../../../../assets/struktur/pelayanan/advokesma/queentara.png";
 import regina from "../../../../assets/struktur/pelayanan/advokesma/regina.png";
 import nailah from "../../../../assets/struktur/pelayanan/advokesma/nailah.png";
-import nailaHasna from "../../../../assets/struktur/pelayanan/advokesma/naila.png"; // Nama file sama dengan Nayla
+import nailaHasna from "../../../../assets/struktur/pelayanan/advokesma/naila.png"; 
 import shinta from "../../../../assets/struktur/pelayanan/advokesma/shinta.png";
 import cantika from "../../../../assets/struktur/pelayanan/advokesma/cantika.png";
 
