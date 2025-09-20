@@ -18,8 +18,29 @@
 }
 
 @font-face {
+  font-family: "poppinsSemi";
+  src: url("/fonts/poppinsSemi.ttf") format("truetype");
+}
+
+@font-face {
   font-family: monumentExtendedUltrabold;
   src: url("/fonts/monumentExtendedUltrabold.otf") format("opentype");
+}
+@font-face {
+  font-family: monumentExtendedRegular;
+  src: url("/fonts/monumentExtendedRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: crimsonBold;
+  src: url("/fonts/crimsonBold.ttf") format("opentype");
+}
+@font-face {
+  font-family: orienta;
+  src: url("/fonts/orienta.ttf") format("opentype");
+}
+@font-face {
+  font-family: poppinsBlack;
+  src: url("/fonts/poppinsBlack.ttf") format("opentype");
 }
 
 .montserratBold {
@@ -30,10 +51,25 @@
   font-family: "montserratSemiBold";
 }
 
+.poppinsSemi {
+  font-family: "poppinsSemi";
+}
+
 .monumentExtendedUltrabold {
   font-family: "monumentExtendedUltrabold";
 }
-
+.monumentExtendedRegular {
+  font-family: "monumentExtendedRegular";
+}
+.crimsonBold {
+  font-family: "crimsonBold";
+}
+.orienta {
+  font-family: "orienta";
+}
+.poppinsBlack {
+  font-family: "poppinsBlack";
+}
 .arialBlack {
   font-family: "arialBlack";
 }
