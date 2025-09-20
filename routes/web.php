@@ -23,6 +23,14 @@ Route::get('/layanan', function(){
     return Inertia::render('Layanan');
 });
 
+Route::get('/informasi', function(){
+    return Inertia::render('Informasi');
+});
+
+Route::get('/informasi/{slug}', function($slug){
+    return Inertia::render('InformasiDetail', ['slug' => $slug]);
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
