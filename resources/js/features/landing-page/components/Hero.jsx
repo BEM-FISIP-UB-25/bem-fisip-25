@@ -22,7 +22,7 @@ const Hero = () => {
                 
                 <div className="flex flex-col gap-y-[3vw] relative">
                     <EntryAnimation type="fade" duration={1.5} delay={0.2}>
-                        <h2 className="text-white montserratBold text-[clamp(2.5vw,2.5vw,4vw)]">KABINET BEM FISIP UB 2025</h2>
+                        <h2 className="text-white montserratBold text-[clamp(2.5vw,2.5vw,4vw)] sm:leading-relaxed leading-none">KABINET BEM FISIP UB 2025</h2>
                     </EntryAnimation>
 
                     <div className="relative">
@@ -30,13 +30,13 @@ const Hero = () => {
                             <img 
                                 src={bgLeft} 
                                 alt="Ornamen latar kiri" 
-                                className="w-[50vw] " 
+                                className="w-[70vw] sm:w-[50vw] " 
                                 loading="eager" 
                                 decoding="async" 
                             />
                         </EntryAnimation>
                         <EntryAnimation type="fade" duration={1.5} delay={1.0}>
-                            <h1 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(6.6vw,6.6vw,10vw)] w-[50vw] absolute top-[7%] left-[5%] leading-snug">ESKALASI MIMPI</h1>
+                            <h1 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(9vw,9vw,10vw)] sm:text-[clamp(6.6vw,6.6vw,10vw)] w-[50vw] absolute top-[7%] left-[5%] leading-snug">ESKALASI MIMPI</h1>
                         </EntryAnimation>
                         <EntryAnimation type="fade" duration={1.5} delay={1.4}>
                             <img 
@@ -51,10 +51,10 @@ const Hero = () => {
 
                         <EntryAnimation type="fade" duration={1.5} delay={1}>
                             <motion.div
-                                className="w-[6.5vw] h-[6.5vw] rounded-full absolute bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)] right-[20%] top-[56%]"
+                                className="w-[6.5vw] h-[6.5vw] rounded-full absolute bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)] right-[23%] sm:right-[20%] top-[56%]"
                                 style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }}
                                 animate={{
-                                    y: [0, -8, 0],
+                                    y: [0, -4, 0],
                                     scale: [1, 1.05, 1],
                                 }}
                                 transition={{
@@ -83,12 +83,12 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="relative">
+                <div className="sm:relative sm:right-0 sm:bottom-0 absolute right-[-8%] bottom-[10%]">
                     <EntryAnimation type="fade" duration={1.5} delay={0.5}>
                         <img 
                             src={bgRight} 
                             alt="Ornamen latar kanan" 
-                            className="w-[30vw] " 
+                            className="w-[20vw] sm:w-[30vw] " 
                             loading="eager" 
                             decoding="async" 
                         />
@@ -105,7 +105,7 @@ const Hero = () => {
                     </EntryAnimation>
                     <EntryAnimation type="fade" duration={1.5} delay={1.4} animateOnLoad={true}>
                         <div className="bg-[linear-gradient(to_bottom,#23235F_0%,#4949C5_100%)] absolute top-[-5.5%] right-[2%] px-[2.5vw] py-[1vw] rounded-full">
-                            <h1 className="monumentExtendedUltrabold text-white text-[clamp(2.5vw,2.7vw,4vw)]">KALA</h1>
+                            <h1 className="monumentExtendedUltrabold text-white text-[clamp(1vw,1.3vw,4vw)] sm:text-[clamp(2.5vw,2.7vw,4vw)]">KALA</h1>
                         </div>
                     </EntryAnimation>
                 </div>
