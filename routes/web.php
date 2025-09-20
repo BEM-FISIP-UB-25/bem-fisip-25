@@ -66,6 +66,9 @@ Route::get('/informasi/{slug}', function($slug){
     return Inertia::render('InformasiDetail', ['slug' => $slug]);
 });
 
+Route::get('/artikel', [App\Domain\Blog\Controllers\PostController::class, 'index'])->name('blog.index');
+Route::get('/artikel/{post:slug}', [App\Domain\Blog\Controllers\PostController::class, 'show'])->name('blog.show');
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
