@@ -32,15 +32,15 @@
 }
 @font-face {
   font-family: crimsonBold;
-  src: url("/fonts/crimsonBold.ttf") format("opentype");
+  src: url("/fonts/crimsonBold.ttf") format("truetype");
 }
 @font-face {
   font-family: orienta;
-  src: url("/fonts/orienta.ttf") format("opentype");
+  src: url("/fonts/orienta.ttf") format("truetype");
 }
 @font-face {
   font-family: poppinsBlack;
-  src: url("/fonts/poppinsBlack.ttf") format("opentype");
+  src: url("/fonts/poppinsBlack.ttf") format("truetype");
 }
 
 .montserratBold {
