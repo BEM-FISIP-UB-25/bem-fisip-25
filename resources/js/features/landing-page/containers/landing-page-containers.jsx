@@ -1,3 +1,4 @@
+import Company from "../components/Company";
 import Hero from "../components/Hero";
 import Organisasi from "../components/Organisasi";
 import Sejarah from "../components/Sejarah";
@@ -9,6 +10,7 @@ const LandinPageContainer = () => {
             <Sejarah/>
             <Visimisi/>
             <Organisasi />
+            <Company/>
         </div>
     )
 }

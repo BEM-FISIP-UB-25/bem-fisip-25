@@ -13,7 +13,7 @@ const Hero = () => {
             <img 
                 src={bg} 
                 alt="Latar belakang utama hero" 
-                className="w-full" 
+                className="w-full " 
                 loading="eager" 
                 fetchpriority="high" 
                 decoding="async" 
@@ -30,7 +30,7 @@ const Hero = () => {
                             <img 
                                 src={bgLeft} 
                                 alt="Ornamen latar kiri" 
-                                className="w-[50vw]" 
+                                className="w-[50vw] " 
                                 loading="eager" 
                                 decoding="async" 
                             />
@@ -42,7 +42,7 @@ const Hero = () => {
                             <img 
                                 src={ornament} 
                                 alt="Ornamen bintang" 
-                                className="w-[2.5vw] absolute top-[41%] right-[2%]" 
+                                className="w-[2.5vw] absolute top-[41%] right-[2%] " 
                                 loading="eager" 
                                 decoding="async" 
                             />
@@ -72,12 +72,12 @@ const Hero = () => {
                             <img 
                                 src={bgBlue} 
                                 alt="Ornamen latar biru" 
-                                className="w-[25vw]" 
+                                className="w-[25vw] " 
                                 loading="eager" 
                                 decoding="async" 
                             />
                         </EntryAnimation>
-                        <EntryAnimation type="fade" duration={1.5} delay={1.2}>
+                        <EntryAnimation type="fade" duration={1.5} delay={1.2} animateOnLoad={true}>
                             <h1 className="montserratBold text-white text-[clamp(1.8vw,1.9vw,10vw)] w-[25vw] absolute top-[12%] left-[3.5%] leading-tight">DARI MIMPI KE AKSI, MENUJU ESKALASI</h1>
                         </EntryAnimation>
                     </div>
@@ -88,22 +88,22 @@ const Hero = () => {
                         <img 
                             src={bgRight} 
                             alt="Ornamen latar kanan" 
-                            className="w-[30vw]" 
+                            className="w-[30vw] " 
                             loading="eager" 
                             decoding="async" 
                         />
                     </EntryAnimation>
-                    <EntryAnimation type="fade" duration={1.5} delay={1.0}>
+                    <EntryAnimation type="fade" duration={1.5} delay={1.0} animateOnLoad={true}>
                         <img 
                             src={logo} 
                             alt="Logo Kabinet" 
-                            className="w-[27vw] absolute top-[15%] left-[5%]" 
+                            className="w-[27vw] absolute top-[15%] left-[5%] " 
                             loading="eager" 
                             fetchpriority="high" 
                             decoding="async" 
                         />
                     </EntryAnimation>
-                    <EntryAnimation type="fade" duration={1.5} delay={1.4}>
+                    <EntryAnimation type="fade" duration={1.5} delay={1.4} animateOnLoad={true}>
                         <div className="bg-[linear-gradient(to_bottom,#23235F_0%,#4949C5_100%)] absolute top-[-5.5%] right-[2%] px-[2.5vw] py-[1vw] rounded-full">
                             <h1 className="monumentExtendedUltrabold text-white text-[clamp(2.5vw,2.7vw,4vw)]">KALA</h1>
                         </div>
