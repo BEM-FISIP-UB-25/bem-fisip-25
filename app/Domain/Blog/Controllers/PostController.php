@@ -39,8 +39,9 @@ class PostController
             'posts' => $posts,
             'searchQuery' => $query,
             'meta' => [
-                'title' => 'Artikel | BEM FISIP UB',
-                'description' => 'Kumpulan artikel dan berita terbaru dari BEM FISIP Universitas Brawijaya',
+                'title' => 'Artikel BEM FISIP UB 2025',
+                'description' => 'Kumpulan artikel dan berita terbaru dari BEM FISIP Universitas Brawijaya 2025. Temukan informasi terkini tentang kegiatan dan program BEM FISIP UB.',
+                'keywords' => 'Artikel BEM FISIP UB, Berita FISIP UB, Kegiatan Mahasiswa FISIP, Program BEM FISIP UB 2025'
             ]
         ]);
     }
@@ -63,8 +64,9 @@ class PostController
         return Inertia::render('PostShow', [
             'post' => $postData,
             'meta' => [
-                'title' => $post->title . ' | BEM FISIP UB',
+                'title' => $post->title,
                 'description' => Str::limit(strip_tags($post->abstract), 160),
+                'keywords' => 'Artikel BEM FISIP UB, ' . $post->title . ', Berita FISIP UB, Kegiatan Mahasiswa FISIP',
                 'image' => $post->image_url,
             ]
         ]);
