@@ -28,12 +28,12 @@ const Footer = () => {
 
                     <div className="flex flex-col gap-y-[2vw]">
                         {/* Bagian Sekretariat */}
-                        <div className="flex flex-col gap-y-2">
+                        <div className="flex flex-col gap-y-[0.5vw]">
                             <h2 className="poppinsSemibold text-white text-[clamp(2vw,2vw,3vw)] leading-none">
                                 Sekretariat
                             </h2>
-                            <p className="poppinsSemibold text-white text-[clamp(1.5vw,1.5vw,2vw)]">GEDUNG SEKRETARIAT BEM FISIP UB</p>
-                            <div className="flex flex-col poppinsRegular text-white text-[clamp(1.5vw,1.5vw,2vw)]  leading-tight">
+                            <p className="poppinsSemibold text-white text-[clamp(1.5vw,1.5vw,2vw)] leading-tight">GEDUNG SEKRETARIAT BEM FISIP UB</p>
+                            <div className="flex flex-col poppinsRegular text-white text-[clamp(1.5vw,1.5vw,2vw)]  ">
                                 
                                 <p>Jalan Veteran, Kota Malang, Provinsi</p>
                                 <p>Jawa Timur, Indonesia – 65145,</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
 
                         {/* Bagian Kontak Kami */}
-                        <div className="flex flex-col gap-y-2">
+                        <div className="flex flex-col gap-y-[0.5vw]">
                             <h2 className="arialBold text-white text-[clamp(1.5vw,2vw,3vw)] leading-none">
                                 Kontak Kami
                             </h2>

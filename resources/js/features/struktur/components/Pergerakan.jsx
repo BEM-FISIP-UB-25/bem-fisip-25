@@ -83,7 +83,7 @@ const PergerakanDetails = () => {
                         <EntryAnimation type="slide" direction="up" delay={0.7} className="transform">{rowKajian8.map(staff => <StaffCard key={staff.id} {...staff} />)}</EntryAnimation>
                     </div>
                     <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
-                        <div className="w-full flex flex-col items-center px-[2vw] mt-20">
+                        <div className="w-full flex flex-col items-center px-[2vw] mt-[2vw]">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
                                 <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>
@@ -167,7 +167,7 @@ const PergerakanDetails = () => {
 </EntryAnimation>
                     </div>
                      <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
-                        <div className="w-full flex flex-col items-center px-[2vw] mt-20">
+                        <div className="w-full flex flex-col items-center px-[2vw] mt-[2vw]">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
                                 <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>
@@ -206,7 +206,7 @@ const PergerakanDetails = () => {
                         <EntryAnimation type="slide" direction="right" delay={0.6} className="flex flex-row gap-x-[8vw] items-center justify-center">{rowSosling7.map(staff => <StaffCard key={staff.id} {...staff} />)}</EntryAnimation>
                     </div>
                     <EntryAnimation type="slide" direction="up" delay={0.2} amount={0.1}>
-                        <div className="w-full flex flex-col items-center px-[2vw] mt-20 pb-20">
+                        <div className="w-full flex flex-col items-center px-[2vw] mt-[2vw] pb-[2vw]">
                             <div className="bg-[#FF9A27] w-full max-w-7xl p-[1.5vw] flex items-center justify-center rounded-2xl z-10 shadow-lg">
                                 <h2 className="monumentExtendedRegular text-[clamp(1.5vw,3.5vw,3.5vw)] text-center leading-tight text-[#23235F]">PROGRAM KERJA & ARAH STRATEGIS</h2>
                             </div>

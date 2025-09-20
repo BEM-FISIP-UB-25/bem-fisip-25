@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import shape from "../../../../assets/profile/filosofi/shape.webp";
 
 const Card = ({ title, description }) => (
-    <div className="bg-[#23235F] rounded-3xl p-[1.5vw] flex flex-col gap-y-[2vw] shadow-lg h-[35vw] w-[50vw]  flex-shrink-0">
+    <div className="bg-[#23235F] rounded-3xl p-[1.5vw] flex flex-col gap-y-[2vw] shadow-lg h-[39vw] w-[50vw]  flex-shrink-0">
         <div className="bg-[#FFA94D] rounded-2xl p-[1vw] flex items-center justify-center h-[12vw]">
             <h2 className="monumentExtendedUltrabold text-white text-[clamp(2.5vw,3vw,3vw)] flex items-center justify-center w-full tracking-[0.01em] text-center">
                 {title}
