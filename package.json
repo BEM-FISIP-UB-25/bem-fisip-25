@@ -4,7 +4,10 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "build:prod": "vite build --mode production",
+        "preview": "vite preview",
+        "analyze": "vite build --mode analyze"
     },
     "devDependencies": {
         "@headlessui/react": "^2.0.0",
