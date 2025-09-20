@@ -7,15 +7,15 @@ import { motion } from "framer-motion";
 const LembagaContainer = () => {
     return (
         <div
-            className="min-h-screen bg-white"
+            className="min-h-screen"
             style={{
                 backgroundImage: `url(${bgPattern})`,
-                backgroundRepeat: 'repeat-y',
-                backgroundPosition: 'top center',
-                backgroundSize: '100% auto',
+                backgroundRepeat: "repeat-y",
+                backgroundPosition: "top center",
+                backgroundSize: "100% auto",
             }}
         >
-            <div className="mx-[2vw] mt-[4vw] mb-[6vw]">
+            <div className="mx-[2vw] mt-[2vw] mb-[6vw]">
                 <motion.div
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +40,9 @@ const LembagaContainer = () => {
                     <h2 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(3vw,4vw,5vw)] tracking-tight text-center">
                         KONGRES MAHASISWA
                     </h2>
-                    <SingleOrganizationPanel organization={lembagaData.kongresMahasiswa} />
+                    <SingleOrganizationPanel
+                        organization={lembagaData.kongresMahasiswa}
+                    />
                 </motion.section>
 
                 <motion.section
@@ -79,8 +81,8 @@ const LembagaContainer = () => {
                     <h2 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(3vw,4vw,5vw)] tracking-tight text-center">
                         HMJ
                     </h2>
-                    <GridOrganizationPanel 
-                        organizations={lembagaData.hmj} 
+                    <GridOrganizationPanel
+                        organizations={lembagaData.hmj}
                         gridCols="grid-cols-5"
                     />
                 </motion.section>
@@ -95,20 +97,20 @@ const LembagaContainer = () => {
                     <h2 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(3vw,4vw,5vw)] tracking-tight text-center">
                         LKM LSO
                     </h2>
-                    <GridOrganizationPanel 
-                        organizations={lembagaData.lkmLso1} 
+                    <GridOrganizationPanel
+                        organizations={lembagaData.lkmLso1}
                         gridCols="grid-cols-4"
                     />
-                     <GridOrganizationPanel 
-                        organizations={lembagaData.lkmLso2} 
+                    <GridOrganizationPanel
+                        organizations={lembagaData.lkmLso2}
                         gridCols="grid-cols-4"
                     />
-                     <GridOrganizationPanel 
-                        organizations={lembagaData.lkmLso3} 
+                    <GridOrganizationPanel
+                        organizations={lembagaData.lkmLso3}
                         gridCols="grid-cols-4"
                     />
-                     <GridOrganizationPanel 
-                        organizations={lembagaData.lkmLso4} 
+                    <GridOrganizationPanel
+                        organizations={lembagaData.lkmLso4}
                         gridCols="grid-cols-4"
                     />
                 </motion.section>
