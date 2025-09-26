@@ -4,6 +4,7 @@ import himanika from "../../../../assets/lembaga/himanika.webp"
 import himasos from "../../../../assets/lembaga/himahi.webp"
 import himapol from "../../../../assets/lembaga/himap.webp"
 import himasip from "../../../../assets/lembaga/himapol.webp"
+import himasigi from "../../../../assets/lembaga/himasigi.webp"
 import himasan from "../../../../assets/lembaga/himapsi 2.webp"
 import dpm from "../../../../assets/lembaga/dpm.webp"
 import bem from "../../../../assets/lembaga/bem.webp"
@@ -58,11 +59,16 @@ export const lembagaData = {
         },
         {
             id: 4,
+            name: "HIMASIGI",
+            logo: himasigi
+        },
+        {
+            id: 5,
             name: "HIMASIP",
             logo: himasip
         },
         {
-            id: 5,
+            id: 6,
             name: "HIMASANTRI",
             logo: himasan
         }
