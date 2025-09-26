@@ -15,7 +15,7 @@
         
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:title" content="BEM FISIP UB 2025 - Badan Eksekutif Mahasiswa FISIP Universitas Brawijaya">
+        <meta property="og:title" content="Badan Eksekutif Mahasiswa FISIP Universitas Brawijaya">
         <meta property="og:description" content="Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Brawijaya 2025. Wadah aspirasi dan pengembangan mahasiswa FISIP UB.">
         <meta property="og:image" content="{{ asset('eskalasi.png') }}">
         <meta property="og:site_name" content="BEM FISIP UB 2025">
@@ -23,7 +23,7 @@
         
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="{{ url()->current() }}">
-        <meta property="twitter:title" content="BEM FISIP UB 2025 - Badan Eksekutif Mahasiswa FISIP Universitas Brawijaya">
+        <meta property="twitter:title" content="Badan Eksekutif Mahasiswa FISIP Universitas Brawijaya">
         <meta property="twitter:description" content="Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Brawijaya 2025. Wadah aspirasi dan pengembangan mahasiswa FISIP UB.">
         <meta property="twitter:image" content="{{ asset('eskalasi.png') }}">
         

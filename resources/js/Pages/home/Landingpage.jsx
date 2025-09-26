@@ -4,7 +4,7 @@ import BaseLayout from "@/shared/Layouts/HomeLayout"
 const Landingpage = ({ meta }) => {
     return(
         <BaseLayout 
-            title={meta?.title || "BEM FISIP UB 2025"}
+            title={meta?.title}
             description={meta?.description}
             keywords={meta?.keywords}
         >

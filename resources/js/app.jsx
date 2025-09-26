@@ -15,8 +15,8 @@ const isDevelopment = import.meta.env.DEV;
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 5 * 60 * 1000, // 5 minutes
-      cacheTime: 10 * 60 * 1000, // 10 minutes
+      staleTime: 5 * 60 * 1000, 
+      cacheTime: 10 * 60 * 1000, 
       retry: 3,
       refetchOnWindowFocus: false,
     },
@@ -25,7 +25,7 @@ const queryClient = new QueryClient({
 
 createInertiaApp({
   title: (title) =>
-    title ? `${title} | BEM FISIP UB 2025` : 'BEM FISIP UB 2025',
+    `${title}` ,
   
   resolve: (name) =>
     resolvePageComponent(

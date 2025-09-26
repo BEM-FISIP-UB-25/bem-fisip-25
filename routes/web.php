@@ -10,7 +10,7 @@ use Inertia\Inertia;
 Route::get('/', function(){
     return Inertia::render('home/Landingpage', [
         'meta' => [
-            'title' => 'BEM FISIP UB 2025 - Badan Eksekutif Mahasiswa FISIP Universitas Brawijaya',
+            'title' => 'BEM FISIP UB 2025 - Kabinet Eskalasi Mimpi',
             'description' => 'Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Brawijaya 2025. Wadah aspirasi dan pengembangan mahasiswa FISIP UB.',
             'keywords' => 'BEM FISIP UB 2025, BEM FISIP, FISIP UB, Fakultas Ilmu Sosial dan Politik, Universitas Brawijaya, Mahasiswa, Organisasi Mahasiswa, Malang'
         ]

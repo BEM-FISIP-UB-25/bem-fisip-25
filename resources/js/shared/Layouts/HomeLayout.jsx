@@ -18,7 +18,7 @@ export default function SiteLayout({
   image = "/eskalasi.png",
   children 
 }) {
-  const fullTitle = title ? `${title} | BEM FISIP UB 2025` : 'BEM FISIP UB 2025';
+  const fullTitle = `${title} | BEM FISIP UB 2025`;
   const currentUrl = window.location.href;
 
   return (
