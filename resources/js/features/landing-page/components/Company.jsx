@@ -1,6 +1,5 @@
 import React from 'react';
 import bg from "../../../../assets/landingpage/comprof/bg.webp";
-import cover from "../../../../assets/landingpage/comprof/cover.webp";
 import yt from "../../../../assets/landingpage/comprof/yt.png"; 
 import EntryAnimation from '@/shared/components/EntryAnimation'; 
 
@@ -36,15 +35,13 @@ const Company = () => {
                         rel="noopener noreferrer"
                         className="relative flex items-center justify-center w-[90vw] md:w-[70vw] rounded-2xl overflow-hidden shadow-[0px_-5px_13px_10px_rgba(0,0,0,0.25)]"
                     >
-                        {/* Gambar Cover */}
                         <img
-                            src={cover}
+                            src="images/THUMBNAIL (1).webp"
                             alt="Company Profile Video Cover"
                             className="w-full h-auto"
                             loading="eager"
                             decoding="async"
                         />
-                        {/* Ikon YouTube Play Button */}
                         <img 
                             src={yt} 
                             alt="Play YouTube Video" 
