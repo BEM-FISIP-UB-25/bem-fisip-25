@@ -21,9 +21,9 @@ const LembagaContainer = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, amount: 0.6 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
-                    className="inline-block bg-gradient-to-br from-orange-400 to-orange-500 rounded-tr-[32px] rounded-br-[32px] rounded-bl-[32px] px-[3vw] py-[2vw] md:px-[6vw] md:py-[1vw] shadow-lg"
+                    className=" mt-[6vw] inline-block bg-gradient-to-br from-orange-400 to-orange-500 rounded-tr-[32px] rounded-br-[32px] rounded-bl-[32px] px-[6vw] py-[2vw] md:px-[6vw] md:py-[1vw] shadow-lg"
                 >
-                    <h1 className="monumentExtendedUltrabold text-white text-[clamp(3.5vw,5vw,3vw)] tracking-tight">
+                    <h1 className="monumentExtendedUltrabold text-white text-[clamp(3.5vw,5vw,3vw)] tracking-[0.2em]">
                         LEMBAGA
                     </h1>
                 </motion.div>
@@ -83,7 +83,7 @@ const LembagaContainer = () => {
                     </h2>
                     <GridOrganizationPanel
                         organizations={lembagaData.hmj}
-                        gridCols="grid-cols-5"
+                        gridCols="grid-cols-6"
                     />
                 </motion.section>
 

@@ -8,7 +8,7 @@ const GridOrganizationPanel = ({ organizations, gridCols }) => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.45, ease: "easeOut" }}
-                className="bg-[#FF9A27] rounded-[32px] py-[2vw] shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-[#FF9A27] rounded-[32px] py-[2vw] px-[1vw] shadow-lg hover:shadow-xl transition-all duration-300"
             >
                 <div className={`grid ${gridCols} gap-[0vw] md:gap-[0vw]`}>
                     {organizations.map((organization, index) => (
