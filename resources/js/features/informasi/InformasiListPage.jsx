@@ -53,7 +53,7 @@ export default function InformasiListPage() {
       }}
     >
       <section className="py-10 md:py-14 lg:py-16">
-        <div className="mx-auto max-w-6xl px-4 space-y-10">
+        <div className="mx-auto  px-4 space-y-10">
           <SectionBlockTitle className="bg-[#23235F] tracking-[0.2em]">Informasi</SectionBlockTitle>
 
           {isMobile ? (

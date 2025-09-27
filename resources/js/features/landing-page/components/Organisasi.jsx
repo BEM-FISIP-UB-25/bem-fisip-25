@@ -18,8 +18,8 @@ const Organisasi = () => {
             />
 
             <div className="flex flex-col items-center gap-y-[3vw] w-full">
-                <EntryAnimation type="fade" duration={1}>
-                    <h1 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(4vw,7vw,7vw)]">
+                <EntryAnimation type="fade" duration={2} className="monumentExtendedUltrabold text-[#23235F] text-[clamp(4vw,7vw,7vw)]">
+                    <h1 >
                         NILAI ORGANISASI
                     </h1>
                 </EntryAnimation>

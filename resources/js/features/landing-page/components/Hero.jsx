@@ -79,11 +79,24 @@ const Hero = () => {
                         </EntryAnimation>
                         <EntryAnimation type="fade" duration={1.5} delay={1.2} animateOnLoad={true}>
                             <h1 className="montserratBold text-white text-[clamp(1.8vw,1.9vw,10vw)] w-[25vw] absolute top-[12%] left-[3.5%] leading-tight">DARI MIMPI KE AKSI, MENUJU ESKALASI</h1>
+                            <motion.div
+                                className="w-[1.5vw] h-[1.5vw] left-[33%] sm:left-[47.5%] bottom-[19%] sm:bottom-[20%] rounded-full absolute bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)] "
+                                style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }}
+                                animate={{
+                                    y: [0, -4, 0],
+                                    scale: [1, 1.05, 1],
+                                }}
+                                transition={{
+                                    duration: 2.5,
+                                    repeat: Infinity,
+                                    ease: "easeInOut",
+                                }}
+                            />
                         </EntryAnimation>
                     </div>
                 </div>
 
-                <div className="sm:relative sm:right-0 sm:bottom-0 absolute right-[-8%] bottom-[10%]">
+                <div className="sm:relative sm:right-0 sm:bottom-0 absolute right-[-8%] bottom-[10%] z-20">
                     <EntryAnimation type="fade" duration={1.5} delay={0.5}>
                         <img 
                             src={bgRight} 
@@ -93,20 +106,17 @@ const Hero = () => {
                             decoding="async" 
                         />
                     </EntryAnimation>
-                    <EntryAnimation type="fade" duration={1.5} delay={1.0} animateOnLoad={true}>
+                    <EntryAnimation type="slide" direction="up" duration={1.5} delay={1.0} animateOnLoad={true} className="w-[18vw] sm:w-[27vw] absolute top-[15%] left-[5%] " >
                         <img 
                             src={logo} 
                             alt="Logo Kabinet" 
-                            className="w-[27vw] absolute top-[15%] left-[5%] " 
                             loading="eager" 
                             fetchpriority="high" 
                             decoding="async" 
                         />
                     </EntryAnimation>
-                    <EntryAnimation type="fade" duration={1.5} delay={1.4} animateOnLoad={true}>
-                        <div className="bg-[linear-gradient(to_bottom,#23235F_0%,#4949C5_100%)] absolute top-[-5.5%] right-[2%] px-[2.5vw] py-[1vw] rounded-full">
+                    <EntryAnimation type="slide" direction="up" duration={1.5} delay={1.4} animateOnLoad={true} className="bg-[linear-gradient(to_bottom,#23235F_0%,#4949C5_100%)] absolute top-[-5.5%] right-[2%] px-[2.5vw] py-[1vw] rounded-full -z-10">
                             <h1 className="monumentExtendedUltrabold text-white text-[clamp(1vw,1.3vw,4vw)] sm:text-[clamp(2.5vw,2.7vw,4vw)]">KALA</h1>
-                        </div>
                     </EntryAnimation>
                 </div>
             </div>

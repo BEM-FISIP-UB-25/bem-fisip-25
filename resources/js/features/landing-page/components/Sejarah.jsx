@@ -4,6 +4,8 @@ import logo from "../../../../assets/landingpage/sejarah/logo.webp";
 import bgBlue from "../../../../assets/landingpage/sejarah/bg-blue.webp";
 import bgOrange from "../../../../assets/landingpage/sejarah/bg-orange.webp";
 import EntryAnimation from "@/shared/components/EntryAnimation";
+import { motion } from "framer-motion";
+
 
 const Sejarah = () => {
     return (
@@ -32,15 +34,43 @@ const Sejarah = () => {
                                 decoding="async"
                             />
                         </EntryAnimation>
-                        <EntryAnimation type="fade" duration={1.5} delay={0.6} className="w-[5vw] h-[5vw] rounded-full absolute left-[3.5%] bottom-[5%] bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)]" style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }} />
-                        <EntryAnimation type="fade" duration={1.5} delay={0.6} className="w-[9vw] h-[9vw] rounded-full absolute right-[6%] top-[2%] bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)]" style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }} />
-                        <EntryAnimation type="fade" duration={1.5} delay={0.6} className="w-[35vw] absolute top-[3%] left-[8%]">
-                        <img
-                            src={logo}
-                            alt="Logo BEM FISIP UB"
-                            loading="lazy"
-                            decoding="async"
-                        />
+                        <EntryAnimation type="fade" duration={1.5} delay={0.6} className="absolute bottom-[13.5%] left-[3%]" >
+                            <motion.div
+                                className="w-[5vw] h-[5vw]  rounded-full absolute bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)] "
+                                style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }}
+                                animate={{
+                                    y: [0, -4, 0],
+                                    scale: [1, 1.05, 1],
+                                }}
+                                transition={{
+                                    duration: 2.5,
+                                    repeat: Infinity,
+                                    ease: "easeInOut",
+                                }}
+                            />
+                        </EntryAnimation>
+                        <EntryAnimation className="absolute right-[28%] top-[1%]">
+                            <motion.div
+                                className="w-[9vw] h-[9vw]  rounded-full absolute bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)] "
+                                style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }}
+                                animate={{
+                                    y: [0, -4, 0],
+                                    scale: [1, 1.05, 1],
+                                }}
+                                transition={{
+                                    duration: 2.5,
+                                    repeat: Infinity,
+                                    ease: "easeInOut",
+                                }}
+                            />
+                        </EntryAnimation>
+                        <EntryAnimation type="slide" direction="up" duration={1.5} delay={0.6} className="w-[35vw] absolute top-[3%] left-[8%]">
+                            <img
+                                src={logo}
+                                alt="Logo BEM FISIP UB"
+                                loading="lazy"
+                                decoding="async"
+                            />
                         </EntryAnimation>
                     </div>
 
@@ -69,7 +99,19 @@ const Sejarah = () => {
                                 />
                                 <p className="absolute montserratSemiBold text-black top-[4%] w-[44vw] left-[4%] text-[clamp(1vw,1.5vw,10vw)] text-justify">
                                     Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Ilmu Politik Universitas Brawijaya (BEM FISIP UB) mulai diakui secara kelembagaan sejak tahun 2009 melalui SK No. 44/J10.1.16/SK/2009, yang menetapkan Presiden BEM sebagai bagian dari struktur fakultas. Sejak saat itu, BEM FISIP UB berkembang dari pelaksana kegiatan mahasiswa menjadi representasi utama aspirasi mahasiswa dalam isu-isu sosial, politik, dan pendidikan, baik di tingkat kampus maupun masyarakat luas. Saat ini, BEM FISIP UB berkedudukan di Gedung Sekretariat Bersama Lembaga Kemahasiswaan FISIP UB, Jalan Veteran, Malang, dan terus berkomitmen menjadi garda terdepan dalam menggerakkan perubahan dan membangun kultur organisasi yang aspiratif dan progresif.                                </p>
-                                <div className="w-[5vw] h-[5vw] rounded-full absolute right-[0%] top-[2%] bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)]" style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }} />
+                                <motion.div
+                                    className="w-[5vw] h-[5vw] absolute right-[0%] top-[3%] rounded-full absolute bg-[linear-gradient(to_bottom,#FF9A27_0%,#40409E_100%)] "
+                                    style={{ boxShadow: "0px 4px 6.6px 3px rgba(0, 0, 0, 0.25)" }}
+                                    animate={{
+                                        y: [0, -4, 0],
+                                        scale: [1, 1.05, 1],
+                                    }}
+                                    transition={{
+                                        duration: 2.5,
+                                        repeat: Infinity,
+                                        ease: "easeInOut",
+                                    }}
+                                />
                                 <div className="w-[5vw] h-[14vw] rounded-3xl absolute right-[0%] bottom-[2%] bg-[#23235F]" style={{ boxShadow: "5px 5px 4px 0px rgba(0, 0, 0, 0.25)" }} />
                             </div>
                         </EntryAnimation>
