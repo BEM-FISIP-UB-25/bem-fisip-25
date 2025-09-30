@@ -72,7 +72,7 @@ const Struktur = () => {
                         type="slide"
                         direction={index % 2 === 0 ? 'right' : 'left'} 
                         duration={1.5}
-                        className="w-full h-[30vw] bg-gradient-to-b from-[#23235F] to-[#4949C5] rounded-xl relative"
+                        className="w-full h-[30vw] bg-gradient-to-b from-[#23235F] to-[#4949C5] rounded-xl relative overflow-hidden"
                     >
                         <Card
                             img_profile={item.image_profile}
