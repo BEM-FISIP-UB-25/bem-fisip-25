@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link rel="icon" type="image/png" href="{{ asset('eskalasi.png') }}?v=1">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+        <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon-96x96.png') }}">
+        <link rel="manifest" href="{{ asset('site.webmanifest') }}">
         <link rel="shortcut icon" href="{{ asset('eskalasi.png') }}?v=1" type="image/png">
         <title inertia>{{config('app.name', 'BEM FISIP UB 2025')}}</title>
         <meta name="description" content="Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Brawijaya 2025. Wadah aspirasi dan pengembangan mahasiswa FISIP UB.">
@@ -29,8 +33,6 @@
         
         <meta name="theme-color" content="#1d2466">
         <meta name="msapplication-TileColor" content="#1d2466">
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-        <link rel="apple-touch-icon" href="{{ asset('eskalasi.png') }}">
         
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -54,7 +56,7 @@
                 ],
                 'parentOrganization' => [
                     '@type' => 'Organization',
-                    'name' => 'Universitas Brawijaya',
+                    'name' => 'BEM FISIP UB 2025',
                     'url' => 'https://bemfisip.ub.ac.id',
                 ],
                 'sameAs' => [
