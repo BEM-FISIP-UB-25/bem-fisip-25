@@ -18,9 +18,9 @@ const Sejarah = () => {
                 decoding="async"
             />
 
-            <div className="absolute top-0 p-[2vw] flex flex-col gap-y-[2vw]">
+            <div className="absolute top-0 p-[2vw] pt-[5vw] flex flex-col gap-y-[2vw]">
                 <EntryAnimation type="fade" duration={1.5}>
-                    <h3 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(4vw,4vw,4vw)]">Kenalan lebih banyak yuk,</h3>
+                    <h3 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(3vw,3vw,4vw)] leading-none">Kenalan lebih banyak yuk,</h3>
                 </EntryAnimation>
 
                 <div className="flex flex-row items-center gap-x-[2vw]">
