@@ -1,3 +1,106 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "arialBlack";
+  src: url("/fonts/arialBlack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "montserratBold";
+  src: url("/fonts/montserratBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "montserratSemiBold";
+  src: url("/fonts/montserratSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppinsSemi";
+  src: url("/fonts/poppinsSemi.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: monumentExtendedUltrabold;
+  src: url("/fonts/monumentExtendedUltrabold.otf") format("opentype");
+}
+@font-face {
+  font-family: monumentExtendedRegular;
+  src: url("/fonts/monumentExtendedRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: crimsonBold;
+  src: url("/fonts/crimsonBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: orienta;
+  src: url("/fonts/orienta.ttf") format("truetype");
+}
+@font-face {
+  font-family: poppinsBlack;
+  src: url("/fonts/poppinsBlack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "arialBold";
+  src: url("/fonts/arialBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: url("/fonts/poppinsRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppinsSemibold";
+  src: url("/fonts/poppinsSemibold.ttf") format("truetype");
+}
+
+.poppinsSemibold {
+  font-family: "poppinsSemibold";
+}
+
+.poppinsRegular {
+  font-family: "poppinsRegular";
+}
+
+.arialBold {
+  font-family: "arialBold";
+}
+
+.poppinsBlack {
+  font-family: "poppinsBlack";
+}
+
+.montserratBold {
+  font-family: "montserratBold";
+}
+
+.montserratSemiBold {
+  font-family: "montserratSemiBold";
+}
+
+.poppinsSemi {
+  font-family: "poppinsSemi";
+}
+
+.monumentExtendedUltrabold {
+  font-family: "monumentExtendedUltrabold";
+}
+.monumentExtendedRegular {
+  font-family: "monumentExtendedRegular";
+}
+.crimsonBold {
+  font-family: "crimsonBold";
+}
+.orienta {
+  font-family: "orienta";
+}
+.poppinsBlack {
+  font-family: "poppinsBlack";
+}
+.arialBlack {
+  font-family: "arialBlack";
+}

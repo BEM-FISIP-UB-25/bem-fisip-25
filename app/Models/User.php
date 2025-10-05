@@ -45,4 +45,14 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    /**
+     * Check if user has specific role
+     */
+    public function hasRole($roles): bool
+    {
+        // For now, all authenticated users are considered admin
+        // In a real application, you would check against a roles table
+        return true;
+    }
 }
