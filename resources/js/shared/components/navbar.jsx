@@ -85,12 +85,13 @@ const Navbar = () => {
     
     const NavbarHeaderContent = (
         <Link href="/" className="flex flex-row items-center gap-x-[1vw] z-20">
-            <img src={eskalasi} alt="Eskalasi" className="w-[8vw] lg:w-14" />
+            {/* UPDATED: Used clamp for a responsive logo size on mobile */}
+            <img src={eskalasi} alt="Eskalasi" className="w-[clamp(2.25rem,8vw,3rem)] lg:w-[3vw]" />
             <div className="flex flex-col">
-                <h1 className="monumentExtendedUltrabold text-[#23235F] text-[4vw] lg:text-[2.5vw]">
+                <h1 className="monumentExtendedUltrabold text-[#23235F] text-[clamp(4vw,4vw,1.5rem)] lg:text-[clamp(1.5rem,2.2vw,2rem)]">
                     BEM FISIP UB 2025
                 </h1>
-                <h3 className="monumentExtendedRegular text-white text-[2vw] lg:text-[1.6vw] [-webkit-text-stroke:0.2px_#23235F] [text-shadow:1px_0_0_#23235F,-1px_0_0_#23235F,0_1px_0_#23235F,0_-1px_0_#23235F]">
+                <h3 className="monumentExtendedRegular text-white text-[clamp(2vw,2vw,0.85rem)] lg:text-[clamp(0.9rem,1.4vw,1.2rem)] [-webkit-text-stroke:0.2px_#23235F] [text-shadow:1px_0_0_#23235F,-1px_0_0_#23235F,0_1px_0_#23235F,0_-1px_0_#23235F]">
                     KABINET ESKALASI MIMPI
                 </h3>
             </div>
@@ -99,12 +100,12 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className=" lg:h-[7vw] w-full bg-gradient-to-r from-[#FFEFE2] from-0% via-[#FFE2C5] via-7% to-[#FF9A27] to-59% flex items-center justify-between sm:rounded-b-3xl relative shadow-lg px-[2vw] z-40 overflow-hidden">
+            <nav className=" lg:h-[5vw] w-full bg-gradient-to-r from-[#FFEFE2] from-0% via-[#FFE2C5] via-7% to-[#FF9A27] to-59% flex items-center justify-between sm:rounded-b-3xl relative shadow-lg px-[2vw] z-40 overflow-hidden">
                 <img src={shapes} alt="Shapes" className="absolute top-0 left-0 w-full h-full  -z-10" />
                 
                 {NavbarHeaderContent}
-
-                <ul className="hidden lg:flex flex-row items-center gap-x-[1vw] text-white arialBlack text-[1vw] z-10">
+                 
+                <ul className="hidden lg:flex flex-row items-center gap-x-[1vw] text-white arialBlack text-[clamp(1vw,1vw,1rem)] z-10">
                     <NavLink href="/">BERANDA</NavLink>
                     <NavLink href="/profil">PROFIL</NavLink>
                     <NavLink href="/struktur">STRUKTUR</NavLink>
@@ -152,7 +153,8 @@ const Navbar = () => {
                                     <Link
                                         href={item.href}
                                         onClick={() => setIsOpen(false)}
-                                        className="block w-full py-[2.5vw] text-[clamp(3vw,3vw,5vw)]"
+                                        // UPDATED: Corrected and reduced the clamp value for mobile nav links
+                                        className="block w-full py-[2.5vw] text-[clamp(0.9rem,4vw,1.1rem)]"
                                     >
                                         {item.label}
                                     </Link>
