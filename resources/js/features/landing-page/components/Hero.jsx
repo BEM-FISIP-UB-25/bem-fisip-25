@@ -13,7 +13,7 @@ const Hero = () => {
             <img 
                 src={bg} 
                 alt="Latar belakang utama hero" 
-                className="w-full " 
+                className="w-[95vw] " 
                 loading="eager" 
                 fetchpriority="high" 
                 decoding="async" 
