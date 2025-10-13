@@ -53,7 +53,7 @@ const Proker = () => {
                             animate="center"
                             exit="exit"
                             transition={{ duration: 0.4, ease: "easeInOut" }}
-                            className="bg-[#23235F] rounded-3xl  p-[1.5vw] flex flex-col gap-y-[2vw] shadow-lg h-[35vw]"
+                            className="bg-[#23235F] rounded-3xl  p-[1.5vw] flex flex-col gap-y-[2vw] shadow-lg h-[37vw]"
                         >
                             <div className="bg-[#FFA94D] rounded-2xl p-[1vw] flex items-center justify-center h-[12vw]">
                                 <h2 className="monumentExtendedUltrabold text-white text-[clamp(4vw,4vw,4vw)] flex items-center justify-center w-[46.6vw] tracking-[0.01em] text-center">
