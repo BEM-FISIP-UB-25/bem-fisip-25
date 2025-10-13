@@ -23,7 +23,7 @@ import vika from "../../../../assets/struktur/pergerakan/sosling/vika.png";
 import yohanes from "../../../../assets/struktur/pergerakan/sosling/yohanes.png";
 
 export const soslingData = [
-    { id: 1, name: "M. FATHURRAHMAN", division: "KABIRG SOSLING", image: fathurrahman },
+    { id: 1, name: "M. FATHURRAHMAN", division: "MENTERI SOSLING", image: fathurrahman },
     { id: 2, name: "LATIFAH RIZKA", division: "DIRJEN SOSIAL", image: latifah },
     { id: 3, name: "NURUNNAJWA", division: "DIRJEN LINGKUNGAN", image: nurunnajwa },
     { id: 4, name: "AFIFAH R.", division: "STAFF AHLI", image: afifah },
