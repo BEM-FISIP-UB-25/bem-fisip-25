@@ -1,6 +1,6 @@
 import {
   motion,
-  AnimatePresence, 
+  AnimatePresence,
   useInView,
   useMotionValueEvent,
   useScroll,
@@ -91,14 +91,14 @@ const Visimisi = () => {
         <div className="w-[25%] sm:w-[20%]">
           <h2
             ref={visiTitleRef}
-            className="h-[50vh] md:h-[100vh] flex items-center monumentExtendedUltrabold text-[clamp(6vw,6vw,6vw)] transition-colors duration-500"
+            className="h-[50vh] md:h-[50vh] flex items-center monumentExtendedUltrabold text-[clamp(6vw,6vw,6vw)] transition-colors duration-500"
             style={{ color: isVisiInView ? "#23235F" : "#FFD199" }}
           >
             VISI
           </h2>
           <h2
             ref={misiTitleRef}
-            className=" h-[50vh] md:h-[100vh] flex items-center monumentExtendedUltrabold text-[clamp(6vw,6vw,6vw)] transition-colors duration-500"
+            className=" h-[50vh] md:h-[50vh] flex items-center monumentExtendedUltrabold text-[clamp(6vw,6vw,6vw)] transition-colors duration-500"
             style={{ color: isMisiInView ? "#23235F" : "#FFD199" }}
           >
             MISI
@@ -106,11 +106,11 @@ const Visimisi = () => {
         </div>
 
         <div className="w-[45%]">
-          <div className="h-screen sticky top-0 flex items-center text-white">
+          <div className=" sticky top-[40vh] z-20 mt-[8vw] mb-[8vw] text-white">
             <AnimatePresence mode="wait">
               {activeSection === "visi" ? (
                 <motion.div
-                  key="visi" 
+                  key="visi"
                   variants={textVariants}
                   initial="initial"
                   animate="animate"
@@ -122,7 +122,7 @@ const Visimisi = () => {
                 </motion.div>
               ) : (
                 <motion.div
-                  key="misi" 
+                  key="misi"
                   variants={textVariants}
                   initial="initial"
                   animate="animate"
@@ -130,7 +130,7 @@ const Visimisi = () => {
                   transition={transition}
                   className="text-[clamp(2.5vw,3vw,3vw)] montserrat-Bold md:text-2xl lg:text-3xl font-semibold leading-none"
                 >
-                  <ul className="space-y-4"> 
+                  <ul className="space-y-4">
                     {misiItems.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
