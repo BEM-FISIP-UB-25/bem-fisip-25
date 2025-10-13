@@ -77,7 +77,7 @@ const SpiDetails = () => {
                     <div className="w-full px-[2vw] flex flex-col items-center gap-y-[3vw]">
                         <EntryAnimation type="slide" direction="up" className="flex flex-row items-center justify-between w-full max-w-7xl">
                            <h1 className="monumentExtendedRegular text-[clamp(1.5vw,2.5vw,3vw)] text-center leading-tight text-white">BIRO KESEKTARIATAN KABINET</h1>
-                           <img src={setkab} alt="setkab logo" className="w-[10vw]" />
+                           <img src={setkab} alt="setkab logo" className="w-[10vw] " />
                         </EntryAnimation>
                     </div>
                     <div className="w-full flex flex-col items-center gap-y-[3vw] md:px-[10vw] px-[5vw] pt-[2vw]">
