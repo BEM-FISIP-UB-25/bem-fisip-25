@@ -8,7 +8,7 @@ const Organisasi = () => {
     const dataBaris2 = organisasiData.slice(3, 5);
 
     return (
-        <div className="relative flex flex-col items-center w-full py-[5vw] overflow-hidden"> 
+        <div className="relative flex flex-col items-center w-full py-[2vw] overflow-hidden"> 
             <img 
                 src={bg} 
                 alt="Latar belakang nilai organisasi" 
@@ -17,8 +17,8 @@ const Organisasi = () => {
                 decoding="async" 
             />
 
-            <div className="flex flex-col items-center gap-y-[3vw] w-full">
-                <EntryAnimation type="fade" duration={2} className="monumentExtendedUltrabold text-[#23235F] text-[clamp(4vw,7vw,7vw)]">
+            <div className="flex flex-col items-center gap-y-[1vw] w-full">
+                <EntryAnimation type="fade" duration={2} className="monumentExtendedUltrabold text-[#23235F] text-[clamp(4vw,6vw,6vw)]">
                     <h1 >
                         NILAI ORGANISASI
                     </h1>
@@ -33,7 +33,7 @@ const Organisasi = () => {
                                 direction="up"
                                 delay={index * 0.15} 
                             >
-                                <div className="relative w-[25vw] h-[25vw] transition-transform duration-300 hover:scale-105">
+                                <div className="relative w-[22vw] h-[22vw] transition-transform duration-300 hover:scale-105">
                                     <img 
                                         src={bgCard} 
                                         alt="Latar belakang kartu" 
